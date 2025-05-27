@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/lxquiz/teacher/sw.js', { scope: '/lxquiz/teacher/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/lxquiz/sw.js', { scope: '/lxquiz/' })})}
